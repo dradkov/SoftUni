@@ -1,0 +1,6 @@
+E:\DOWNLOADS\01HarestingFields\01HarestingFields\bin\Debug\01HarestingFields.exe.config
+E:\DOWNLOADS\01HarestingFields\01HarestingFields\bin\Debug\01HarestingFields.exe
+E:\DOWNLOADS\01HarestingFields\01HarestingFields\bin\Debug\01HarestingFields.pdb
+E:\DOWNLOADS\01HarestingFields\01HarestingFields\obj\Debug\01HarestingFields.csprojResolveAssemblyReference.cache
+E:\DOWNLOADS\01HarestingFields\01HarestingFields\obj\Debug\01HarestingFields.exe
+E:\DOWNLOADS\01HarestingFields\01HarestingFields\obj\Debug\01HarestingFields.pdb

@@ -1,0 +1,6 @@
+E:\DOWNLOADS\02BlackBoxInteger\02BlackBoxInteger\bin\Debug\02BlackBoxInteger.exe.config
+E:\DOWNLOADS\02BlackBoxInteger\02BlackBoxInteger\bin\Debug\02BlackBoxInteger.exe
+E:\DOWNLOADS\02BlackBoxInteger\02BlackBoxInteger\bin\Debug\02BlackBoxInteger.pdb
+E:\DOWNLOADS\02BlackBoxInteger\02BlackBoxInteger\obj\Debug\02BlackBoxInteger.csprojResolveAssemblyReference.cache
+E:\DOWNLOADS\02BlackBoxInteger\02BlackBoxInteger\obj\Debug\02BlackBoxInteger.exe
+E:\DOWNLOADS\02BlackBoxInteger\02BlackBoxInteger\obj\Debug\02BlackBoxInteger.pdb
