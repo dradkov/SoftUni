@@ -1,0 +1,6 @@
+E:\DOWNLOADS\03BarracksFactory\03BarracksFactory\bin\Debug\03BarracksFactory.exe.config
+E:\DOWNLOADS\03BarracksFactory\03BarracksFactory\bin\Debug\03BarracksFactory.exe
+E:\DOWNLOADS\03BarracksFactory\03BarracksFactory\bin\Debug\03BarracksFactory.pdb
+E:\DOWNLOADS\03BarracksFactory\03BarracksFactory\obj\Debug\03BarracksFactory.csprojResolveAssemblyReference.cache
+E:\DOWNLOADS\03BarracksFactory\03BarracksFactory\obj\Debug\03BarracksFactory.exe
+E:\DOWNLOADS\03BarracksFactory\03BarracksFactory\obj\Debug\03BarracksFactory.pdb
