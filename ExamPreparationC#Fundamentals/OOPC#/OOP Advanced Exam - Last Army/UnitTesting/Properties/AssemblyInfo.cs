@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LegoBlocks")]
+[assembly: AssemblyTitle("UnitTesting")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LegoBlocks")]
+[assembly: AssemblyProduct("UnitTesting")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("91f5fdc8-079d-4eea-b02a-c105a4c54ace")]
+[assembly: Guid("5faebdbb-354e-4644-839e-37bc0951353a")]
 
 // Version information for an assembly consists of the following four values:
 //
