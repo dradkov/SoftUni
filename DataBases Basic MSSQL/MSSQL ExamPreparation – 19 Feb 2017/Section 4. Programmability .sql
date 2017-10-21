@@ -1,8 +1,11 @@
 --16
 	CREATE VIEW v_UserWithCountries AS
 	(
-		SELECT CONCAT(cus.FirstName,' ',cus.LastName) AS [CustomerName],cus.Age ,cus.Gender,cO.Name AS [CountryName] FROM Customers AS cus
-		INNER JOIN  Countries AS co ON co.Id = cus.CountryId
+		SELECT CONCAT(cus.FirstName,' ',cus.LastName) AS [CustomerName],
+		       cus.Age,
+		       cus.Gender,
+		       co.Name AS [CountryName] FROM Customers AS cus
+	    INNER JOIN Countries AS co ON co.Id = cus.CountryId
 	
 	) 
 
@@ -17,17 +20,17 @@ GO
 		DECLARE @rate DECIMAL(15,2) = 
 		(
 			SELECT AVG(f.Rate) FROM Feedbacks AS f
-			LEFT JOIN  Products AS p ON p.Id = f.ProductId
-			GROUP BY p.Name
-			HAVING p.Name = @ProductName
+		     LEFT JOIN Products AS p ON p.Id = f.ProductId
+		      GROUP BY p.Name
+		        HAVING p.Name = @ProductName
 		)
 			
 	DECLARE @condition NVARCHAR(20)  = 
 		CASE
-		WHEN  @rate<5 THEN 'Bad'
-		WHEN  @rate BETWEEN 5 AND 8 THEN 'Average'
-		WHEN  @rate>8 THEN 'Good'
-		WHEN @rate IS NULL THEN 'No rating'			  
+		  WHEN  @rate<5 THEN 'Bad'
+		  WHEN  @rate BETWEEN 5 AND 8 THEN 'Average'
+		  WHEN  @rate>8 THEN 'Good'
+		  WHEN @rate IS NULL THEN 'No rating'			  
 		END 
 
 		RETURN  @condition
@@ -57,18 +60,19 @@ GO
 GO
 	
 --19
-CREATE TRIGGER tr_DeleteProductRelations ON Products
-INSTEAD OF DELETE
-AS
-BEGIN
-  DELETE FROM ProductsIngredients
-  WHERE ProductId = (SELECT Id FROM deleted)
-
-  DELETE FROM Feedbacks
-  WHERE ProductId = (SELECT Id FROM deleted)
-  
-  DELETE FROM Products 
-  WHERE Id = (SELECT Id FROM deleted)
-
-  END
-
+	CREATE TRIGGER tr_DeleteProductRelations ON Products
+	INSTEAD OF DELETE
+	AS
+	BEGIN
+	  DELETE FROM ProductsIngredients
+	   WHERE ProductId = (SELECT Id FROM deleted)
+	
+	  DELETE FROM Feedbacks
+	   WHERE ProductId = (SELECT Id FROM deleted)
+	  
+	  DELETE FROM Products 
+	   WHERE Id = (SELECT Id FROM deleted)
+	
+	  END
+	
+	
