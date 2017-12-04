@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductShop.Models\ProductShop.Models.csproj" />
+    <ProjectReference Include="..\ProductsShop.Data\ProductsShop.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="JsonExport\" />
+    <Folder Include="XMLExport\" />
+  </ItemGroup>
+
+</Project>
