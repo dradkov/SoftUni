@@ -1,11 +1,7 @@
 function solve(n) {
     for (let i = 1; i <= n; i++) {
-        console.log('* '.repeat(n));
-        
+        console.log('* '.repeat(n));        
     }
-    
-
-
 }
 
 solve(5);
