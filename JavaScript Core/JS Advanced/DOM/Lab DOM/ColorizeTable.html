@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <table>
+                <tr><th>Name</th><th>Town</th></tr>
+                <tr><td>Eve</td><td>Sofia</td></tr>
+                <tr><td>Nick</td><td>Varna</td></tr>
+                <tr><td>Didi</td><td>Ruse</td></tr>
+                <tr><td>Tedy</td><td>Varna</td></tr>
+              </table>
+              <button onclick="colorize()">Colorize</button>
+              <script>
+                function colorize() {
+                 //let collection = document.getElementsByTagName('table')[0].children[0].children;
+                 //let collection = document.getElementsByTagName('tr');
+                 let collection = document.querySelectorAll('table tr');
+                  
+                 for (let i = 1; i < collection.length; i+=2) {
+                     collection[i].style.backgroundColor = 'Teal';
+                     
+                 }
+
+
+                }
+              </script>
+              
+</body>
+</html>
