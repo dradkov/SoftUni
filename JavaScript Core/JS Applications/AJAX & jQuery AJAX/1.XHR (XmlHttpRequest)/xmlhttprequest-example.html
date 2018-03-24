@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>XmlHttpRequest Example</title>
+
+</head>
+
+<body>
+    <button onclick="loadRepos()">Load Repos</button>
+    <div id="res"></div>
+    <script>
+        function loadRepos() {
+            let req = new XMLHttpRequest()
+
+            req.onreadystatechange = function () {
+                if (req.status === 200 && req.readyState === 4) {
+                    document.getElementById('res').textContent = req.responseText
+                }
+
+            }
+
+            req.open("GET", "https://api.github.com/users/testnakov/repos", true)
+            req.send()
+
+
+        }
+    </script>
+</body>
+
+</html>
