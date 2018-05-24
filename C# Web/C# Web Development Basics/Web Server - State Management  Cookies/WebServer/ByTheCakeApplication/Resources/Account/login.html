@@ -1,0 +1,14 @@
+﻿<h1>Login</h1>
+<form method="post">
+    <label for="name">Name: </label>
+    <input id="name" type="text" name="name" placeholder="Name" required />
+    <br />
+    <label for="password">Password: </label>
+    <input id="password" type="password" name="password" placeholder="Password" required />
+    <br />
+    <input type="submit" value="Login" />
+</form>
+
+<div style="display: {{{showError}}}; color: red">
+    {{{error}}}
+</div>
