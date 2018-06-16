@@ -1,0 +1,9 @@
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\obj\Debug\netstandard2.0\WebServer.csproj.CoreCompileInputs.cache
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\obj\Debug\netstandard2.0\WebServer.AssemblyInfoInputs.cache
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\obj\Debug\netstandard2.0\WebServer.AssemblyInfo.cs
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\obj\Debug\netstandard2.0\WebServer.csprojResolveAssemblyReference.cache
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\bin\Debug\netstandard2.0\WebServer.deps.json
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\bin\Debug\netstandard2.0\WebServer.dll
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\bin\Debug\netstandard2.0\WebServer.pdb
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\obj\Debug\netstandard2.0\WebServer.dll
+C:\SoftUni\C# Web\08. Web-Dev-Basics-Introduction-To-MVC\WebServer\obj\Debug\netstandard2.0\WebServer.pdb
