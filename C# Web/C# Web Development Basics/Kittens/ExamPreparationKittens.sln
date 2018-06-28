@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kittens.App", "Kittens\Kittens.App.csproj", "{83AEC6C6-3FD8-4A82-9E81-C70B720EFCB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Common", "SimpleMvc.Common\SimpleMvc.Common.csproj", "{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Framework", "SimpleMvc.Framework\SimpleMvc.Framework.csproj", "{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServer", "WebServer\WebServer.csproj", "{E20DBBE7-1482-499F-9E47-8B2599879E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kittens.Data", "Kittens.Data\Kittens.Data.csproj", "{BD4A6E6A-D4D5-4A61-BDA5-79B5397896B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kittens.Models", "Kittens.Models\Kittens.Models.csproj", "{1B4C4C59-389F-404E-B980-85D42B574D1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83AEC6C6-3FD8-4A82-9E81-C70B720EFCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AEC6C6-3FD8-4A82-9E81-C70B720EFCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AEC6C6-3FD8-4A82-9E81-C70B720EFCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AEC6C6-3FD8-4A82-9E81-C70B720EFCB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20DBBE7-1482-499F-9E47-8B2599879E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20DBBE7-1482-499F-9E47-8B2599879E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20DBBE7-1482-499F-9E47-8B2599879E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20DBBE7-1482-499F-9E47-8B2599879E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4A6E6A-D4D5-4A61-BDA5-79B5397896B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4A6E6A-D4D5-4A61-BDA5-79B5397896B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4A6E6A-D4D5-4A61-BDA5-79B5397896B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4A6E6A-D4D5-4A61-BDA5-79B5397896B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4C4C59-389F-404E-B980-85D42B574D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4C4C59-389F-404E-B980-85D42B574D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4C4C59-389F-404E-B980-85D42B574D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4C4C59-389F-404E-B980-85D42B574D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EE66403-348F-4B4B-986F-F49F540C88B1}
+	EndGlobalSection
+EndGlobal
