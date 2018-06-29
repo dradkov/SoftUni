@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Common", "SimpleMvc.Common\SimpleMvc.Common.csproj", "{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMvc.Framework", "SimpleMvc.Framework\SimpleMvc.Framework.csproj", "{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServer", "WebServer\WebServer.csproj", "{E20DBBE7-1482-499F-9E47-8B2599879E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeTube.App", "MeTube.App\MeTube.App.csproj", "{506AAA25-7E3B-46F5-9FD9-E07599EA9516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeTube.Models", "MeTube.Models\MeTube.Models.csproj", "{ADB2AEBB-9DA9-40BB-9D86-322CB8CAB763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeTube.Data", "MeTube.Data\MeTube.Data.csproj", "{9DA0F14A-0AF2-4789-AA8B-6263BEDD3287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1319E1-AEC4-4F7D-B853-39CFC455B95A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C172B3A1-A98C-4DE1-82D4-B387E1C09F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20DBBE7-1482-499F-9E47-8B2599879E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20DBBE7-1482-499F-9E47-8B2599879E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20DBBE7-1482-499F-9E47-8B2599879E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20DBBE7-1482-499F-9E47-8B2599879E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506AAA25-7E3B-46F5-9FD9-E07599EA9516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506AAA25-7E3B-46F5-9FD9-E07599EA9516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506AAA25-7E3B-46F5-9FD9-E07599EA9516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506AAA25-7E3B-46F5-9FD9-E07599EA9516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB2AEBB-9DA9-40BB-9D86-322CB8CAB763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB2AEBB-9DA9-40BB-9D86-322CB8CAB763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB2AEBB-9DA9-40BB-9D86-322CB8CAB763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB2AEBB-9DA9-40BB-9D86-322CB8CAB763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA0F14A-0AF2-4789-AA8B-6263BEDD3287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA0F14A-0AF2-4789-AA8B-6263BEDD3287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA0F14A-0AF2-4789-AA8B-6263BEDD3287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA0F14A-0AF2-4789-AA8B-6263BEDD3287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EE66403-348F-4B4B-986F-F49F540C88B1}
+	EndGlobalSection
+EndGlobal
