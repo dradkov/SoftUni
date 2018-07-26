@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SaleModel>
+
+@{
+    ViewData["Title"] = "All Sales";
+}
+
+<h2>
+    All Sales
+    <a class="btn btn-lg btn-primary" href="/sales/create">Add Sale</a>
+</h2>
+
+<table class="table table-bordered table-hover table-striped">
+    <thead>
+        <tr>
+            <th>Car Make</th>
+            <th>Car Model</th>
+            <th>Distance, '000 km</th>
+            <th>Customer</th>
+            <th>Gross Price</th>
+            <th>Net Price</th>
+            <th>Discount</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sale in Model)
+        {
+            <tr>
+                <td>@sale.Make</td>
+                <td>@sale.Model</td>
+                <td class="text-right">@((sale.TravelledDistance / 1000).ToNumber())</td>
+                <td>@sale.Customer</td>
+                <td class="text-right">@sale.Price.ToCurrency()</td>
+                <td class="text-right">@sale.NetPrice.ToCurrency()</td>
+                <td class="text-right">@sale.Discount.ToPercentage()</td>
+                <td><a class="btn btn-block btn-default" href="/sales/@sale.Id">Details</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
