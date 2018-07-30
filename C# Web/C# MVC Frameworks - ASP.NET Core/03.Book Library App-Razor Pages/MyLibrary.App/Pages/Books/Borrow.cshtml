@@ -1,0 +1,32 @@
+﻿@page
+@model MyLibrary.App.Pages.Books.BorrowModel
+@{
+    ViewData["Title"] = "Borrow";
+}
+
+<h2>Borrow book: @Model.BookTitle</h2>
+
+<form class="pr-lg-5 mr-lg-5" method="post">
+    <div class="form-group row">
+        <label for="borrowDate" class="col-md-2 col-form-label text-right">Borrow Date</label>
+        <div class="col-md-10">
+            <input type="date" class="form-control" id="borrowDate" name="BorrowDate" value="@Model.BorrowDate">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="returDate" class="col-md-2 col-form-label text-right">Return Date</label>
+        <div class="col-md-10">
+            <input class="form-control" type="date" id="returnDate" placeholder="Return Date" name="ReturnDate">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="BorrowerId" class="col-md-2 col-form-label text-right">Borrower Name</label>
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.BorrowerId, Model.BorrowersNames, null, new { @class="form-control"})
+            <br />
+            <input class="btn btn-success" type="submit" value="Borrow Book">
+            <input class="btn btn-light" type="reset" value="Cancel">
+        </div>
+    </div>
+</form>
+

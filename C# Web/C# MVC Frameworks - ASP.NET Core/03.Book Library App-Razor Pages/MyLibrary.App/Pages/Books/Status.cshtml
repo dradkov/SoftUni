@@ -1,0 +1,28 @@
+﻿@page "{id:int}"
+@model MyLibrary.App.Pages.Books.StatusModel
+@{
+    ViewData["Title"] = "Status";
+}
+
+<h2>Borrow history for @Model.BookTitle</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Borrower Name</th>
+            <th scope="col">Borrow Date</th>
+            <th scope="col">Return Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var history in Model.BookHistories)
+        { 
+            <tr>
+                <td>@history.BorrowerName</td>
+                <td>@(history.BorrowDate)</td>
+                <td>@(history.ReturnDate.ToString() ?? "-")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

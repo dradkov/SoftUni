@@ -1,0 +1,32 @@
+﻿@page
+@model MyLibrary.App.Pages.Borrowers.AddModel
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h2>Add new borrower</h2>
+
+<form class="pr-lg-5 mr-lg-5" method="post">
+    <div class="form-group row">
+        <label for="name" class="col-md-2 col-form-label text-right">Name</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="name" placeholder="Name" name="Name">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="address" class="col-md-2 col-form-label text-right">Address</label>
+        <div class="col-md-10">
+            <input class="form-control" type="text" id="address" placeholder="Address" name="Address">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="email" class="col-md-2 col-form-label text-right">Email</label>
+        <div class="col-md-10">
+            <input type="email" class="form-control" id="email" placeholder="Email" name="Email">
+            <br />
+            <input class="btn btn-success" type="submit" value="Add Borrower">
+            <input class="btn btn-light" type="reset" value="Cancel">
+        </div>
+    </div>
+</form>
+

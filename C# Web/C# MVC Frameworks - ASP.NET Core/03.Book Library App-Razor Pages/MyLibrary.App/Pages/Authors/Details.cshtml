@@ -1,0 +1,15 @@
+﻿@page "{id:int}"
+@model MyLibrary.App.Pages.Authors.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="pl-lg-3">@Model.AuthorName</h1>
+
+<ul class="ml-3">
+    @foreach (var book in Model.AuthorBooks)
+    {
+        <li><a class="text-primary" asp-page="/Books/Details" asp-route-id="@book.Id">@book.Title</a> <span>@book.Status</span></li>
+    }
+</ul>
+

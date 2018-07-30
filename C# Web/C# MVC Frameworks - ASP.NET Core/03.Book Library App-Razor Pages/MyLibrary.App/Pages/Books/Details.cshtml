@@ -1,0 +1,31 @@
+﻿@page "{id:int}"
+
+@model App.Pages.Books.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+<br />
+<div class="row">
+    <div class="col-md-3">
+        <img src="@Model.ImageUrl" alt="@Model.Title" width="250" height="400"/>
+    </div>
+    <div class="col-md-9">
+        <br />
+        <h2>@Model.Title</h2>
+        <h3>by @Model.AuthorName</h3>
+        <p>@Model.Description</p>
+        <h6><strong>Status:</strong> <span class="text-success">@Model.Status</span></h6>
+        @{
+            if (Model.Status == "At home")
+            {
+                <a class="btn btn-success btn-md active mb-lg-4" role="button" asp-page="/Books/Borrow" asp-route-id="@Model.Id" aria-pressed="true">Borrow this book</a>
+            }
+            else
+            {
+                <a class="btn btn-success btn-md active mb-lg-4" role="button" asp-page-handler="Return" asp-route-id="@Model.Id" aria-pressed="true">Return book</a>
+            }
+        }
+                <a class="btn btn-primary btn-md active mb-lg-4" role="button" asp-page="/Books/Status" asp-route-id="@Model.Id" aria-pressed="true">Show History</a>
+    </div>
+</div>
+

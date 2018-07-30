@@ -1,0 +1,18 @@
+﻿@page
+@model MyLibrary.App.Pages.SearchModel
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h2>Search results: "@Model.SearchTerm"</h2>
+
+<ul>
+    @foreach (var result in Model.SearchResults)
+    {
+        string url = Url.Page($"/{result.Type}s/Details", new { result.Id });
+        <li><a href="@url">@Html.Raw(result.SearchResult)</a> (@result.Type)</li>
+    }
+</ul>
+
+
+

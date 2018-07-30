@@ -1,0 +1,38 @@
+﻿@page
+@model MyLibrary.App.Pages.Books.AddModel
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h1 class="pl-3">Add Book</h1>
+
+<form class="pr-lg-5 mr-lg-5" method="post">
+    <div class="form-group row">
+        <label for="title" class="col-md-2 col-form-label text-right">Title</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="title" placeholder="Title" name="Title">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="description" class="col-md-2 col-form-label text-right">Content</label>
+        <div class="col-md-10">
+        <textarea class="form-control" id="description" rows="3" name="Description"></textarea>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="author" class="col-md-2 col-form-label text-right">Author</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="author" placeholder="Author" name="AuthorName">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="imageUrl" class="col-md-2 col-form-label text-right">Image URL</label>
+        <div class="col-md-10">
+            <input type="text" class="form-control" id="iamgeUrl" placeholder="Image URL" name="ImageUrl">
+            <br />
+            <input class="btn btn-success" type="submit" value="Add Book">
+            <input class="btn btn-light" type="reset" value="Cancel">
+        </div>
+    </div>
+</form>
+
